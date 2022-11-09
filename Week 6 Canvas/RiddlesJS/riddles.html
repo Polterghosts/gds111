@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddles with JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googlepis.com/cas2family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <style>
+        @import url("https://fonts.googlepis.com/cas2family=Rubik+Bubbles&display=swap");
+        
+        @font-face{
+            font-family:party;
+            src: url(fonts/Party\ Confetti.ttf);
+        }
+        body{
+           -webkit-text-stroke-width: 1px;
+           -webkit-text-stroke-color: orange;
+           font-family: party;
+
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <p>What is black and white and read all over?</p>
+            <br>
+            <button onclick="showAnswer('answer','A newspaper!')">Answer</button>
+            <span id="answer"></span>
+           
+        </li>
+        <li>
+            <p>What gets bigger the more its taken away?</p>
+            <br>
+            <button onclick="showAnswer('answer2','A hole')" >Answer</button>
+            <span id="answer2"></span>
+        </li>
+    </ul>
+    <script src="riddles.js"></script>
+</body>
+</html>
