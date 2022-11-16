@@ -32,21 +32,21 @@ function playGame(playerChoice){
         case "rock": 
         if(cpuChoice == 0){
             //rock
-            alert("CPU chose Rock. It's a tie (Boring!!!!!!");
+            alert("CPU chose Rock. It's a tie (Boring!!!!!!)");
         }
         else if(cpuChoice == 1){
             //paper
             alert("CPU chose paper. You suck!");
         }
         else{
-            alert("CPU chose Scissors. You win!");
+            alert("CPU chose Scissors. Cool You win!");
         }
         break;
     
     case "paper": 
     if(cpuChoice == 0){
         //rock
-        alert("CPU chose Rock. You win!");
+        alert("CPU chose Rock. Cool You win!");
     }
     else if(cpuChoice == 1){
         //paper
@@ -64,7 +64,7 @@ function playGame(playerChoice){
     }
     else if(cpuChoice == 1){
         //paper
-        alert("CPU chose paper. You win!");
+        alert("CPU chose paper. Cool You win!");
     }
     else{
         alert("CPU chose Scissors. IT's a tie (Boring!!!!!!)");
